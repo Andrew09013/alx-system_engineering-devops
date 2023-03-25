@@ -1,6 +1,6 @@
 # Simple Web Stack
 
-(0-simple_web_stack.PNG)
+[(0-simple_web_stack.PNG)](https://imgur.com/r5A0BYz)
 
 
 ## Description
