@@ -8,15 +8,15 @@ We had just released a new feature to our recently launched Ruby on Rails site t
 
 ## Timeline
 
-+ 05-02-2022 9:55 AM GMT+1 - A customer complained that they couldn't sign in to the site.
-+ 05-02-2022 10:20 AM GMT+1 - Winus, one of our backend developers, experienced the same issues our customers reported.
-+ 05-02-2022 10:35 AM GMT+1 - We investigated the controllers and the views for inconsistencies.
-+ 05-02-2022 10:40 AM GMT+1 - We assumed the bcrypt (one of our site's dependencies) gem being used was either at fault or used incorrectly because the error message on the site showed that the bcrypt gem was raising an error over an invalid hash.
-+ 05-02-2022 10:42 AM GMT+1 - We checked that the views might not be binding the form fields to the right model fields, which later turned out to be false.
-+ 05-02-2022 10:45 AM GMT+1 - We were misled by thinking that our controllers might be creating a different hash for a valid password of the site's admin.
-+ 05-02-2022 10:50 AM GMT+1 - Winus thought the issue might have been that the password was not properly hashed.
-+ 05-02-2022 11:00 AM GMT+1 - The incident was escalated to the backend development team.
-+ 05-02-2022 11:20 AM GMT+1 - The incident was resolved by updating the requirements (the bcrypt gem version) for the backend server.
++ 16-08-2023 9:55 AM GMT+1 - A customer complained that they couldn't sign in to the site.
++ 16-08-2023 10:20 AM GMT+1 - Winus, one of our backend developers, experienced the same issues our customers reported.
++ 16-08-2023 10:35 AM GMT+1 - We investigated the controllers and the views for inconsistencies.
++ 16-08-2023 10:40 AM GMT+1 - We assumed the bcrypt (one of our site's dependencies) gem being used was either at fault or used incorrectly because the error message on the site showed that the bcrypt gem was raising an error over an invalid hash.
++ 16-08-2023 10:42 AM GMT+1 - We checked that the views might not be binding the form fields to the right model fields, which later turned out to be false.
++ 16-08-2023 10:45 AM GMT+1 - We were misled by thinking that our controllers might be creating a different hash for a valid password of the site's admin.
++ 16-08-2023 10:50 AM GMT+1 - Winus thought the issue might have been that the password was not properly hashed.
++ 16-08-2023 11:00 AM GMT+1 - The incident was escalated to the backend development team.
++ 16-08-2023 11:20 AM GMT+1 - The incident was resolved by updating the requirements (the bcrypt gem version) for the backend server.
 
 ## Root Cause And Resolution
 
